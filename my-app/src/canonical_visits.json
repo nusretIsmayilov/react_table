@@ -1,80 +1,118 @@
 [
-  {
-    "type": "header",
-    "version": "5.1.2",
-    "comment": "Export to JSON plugin for PHPMyAdmin"
-  },
-  { "type": "database", "name": "immolenhart_db" },
-  {
-    "type": "table",
-    "name": "p",
-    "database": "immolenhart_db",
-    "data": [
-      {
-        "page_id": "1073",
-        "canonical_path": "/about/news/nicht-nur-luxus/",
-        "tm": "2025-10-06 17:30:28"
-      },
-      {
-        "page_id": "825",
-        "canonical_path": "/unsere-angebote/haus-am-sudhang-von-agarone/",
-        "tm": "2025-10-06 17:34:15"
-      },
-      {
-        "page_id": "826",
-        "canonical_path": "/unsere-angebote/haus-am-sudhang-von-agarone/",
-        "tm": "2025-10-06 17:34:32"
-      },
-      {
-        "page_id": "424",
-        "canonical_path": "/objekt-des-monats/",
-        "tm": "2025-10-06 17:34:36"
-      },
-      {
-        "page_id": "424",
-        "canonical_path": "/objekt-des-monats/",
-        "tm": "2025-10-06 17:34:36"
-      },
-      {
-        "page_id": "1148",
-        "canonical_path": "/objekt-des-monats/",
-        "tm": "2025-10-06 17:34:47"
-      },
-      {
-        "page_id": "30",
-        "canonical_path": "/unsere-angebote/",
-        "tm": "2025-10-06 17:34:48"
-      },
-      {
-        "page_id": "653",
-        "canonical_path": "/unsere-angebote/",
-        "tm": "2025-10-06 17:35:10"
-      },
-      {
-        "page_id": "110",
-        "canonical_path": "/unsere-angebote/bezaubernde-villetta-in-ronco-s.ascona/",
-        "tm": "2025-10-06 17:36:07"
-      },
-      {
-        "page_id": "1959",
-        "canonical_path": "/unsere-angebote/bezaubernde-villetta-in-ronco-s.ascona/",
-        "tm": "2025-10-06 17:36:27"
-      },
-      {
-        "page_id": "30",
-        "canonical_path": "/unsere-angebote/",
-        "tm": "2025-10-06 17:37:41"
-      },
-      {
-        "page_id": "653",
-        "canonical_path": "/unsere-angebote/",
-        "tm": "2025-10-06 17:37:43"
-      },
-      {
-        "page_id": "424",
-        "canonical_path": "/objekt-des-monats/",
-        "tm": "2025-10-06 17:37:43"
-      }
-    ]
-  }
+{"type":"header","version":"5.1.2","comment":"Export to JSON plugin for PHPMyAdmin"},
+{"type":"database","name":"immolenhart_db"},
+{"type":"table","name":"p","database":"immolenhart_db","data":
+[
+{"page_id":"665","canonical_path":"\/unsere-angebote\/","month":"2025-09","tm":"2025-09-30 18:39:30"},
+{"page_id":"666","canonical_path":"\/unsere-angebote\/","month":"2025-09","tm":"2025-09-30 18:39:35"},
+{"page_id":"1069","canonical_path":"\/referenzobjekte\/4-1-2-zimmerwohnung-nahe-see-in-minusio\/","month":"2025-09","tm":"2025-09-30 18:47:34"},
+{"page_id":"843","canonical_path":"\/unsere-angebote\/2-familien-villetta-in-brione-s.minusio\/","month":"2025-09","tm":"2025-09-30 18:54:34"},
+{"page_id":"61","canonical_path":"\/unsere-angebote\/reihenhaus-in-brione-s-minusio\/","month":"2025-09","tm":"2025-09-30 19:04:10"},
+{"page_id":"825","canonical_path":"\/unsere-angebote\/haus-am-sudhang-von-agarone\/","month":"2025-09","tm":"2025-09-30 19:04:27"},
+{"page_id":"9","canonical_path":"\/unsere-angebote\/","month":"2025-09","tm":"2025-09-30 19:04:40"},
+{"page_id":"10","canonical_path":"\/unsere-angebote\/","month":"2025-09","tm":"2025-09-30 19:04:50"},
+{"page_id":"1017","canonical_path":"\/unsere-angebote\/traumwohnung-in-minusio\/","month":"2025-09","tm":"2025-09-30 19:05:09"},
+{"page_id":"10","canonical_path":"\/unsere-angebote\/","month":"2025-09","tm":"2025-09-30 19:05:25"},
+{"page_id":"718","canonical_path":"\/unsere-angebote\/exklusive-terrassenwohnung-in-minusio\/","month":"2025-09","tm":"2025-09-30 19:05:34"},
+{"page_id":"10","canonical_path":"\/unsere-angebote\/","month":"2025-09","tm":"2025-09-30 19:05:53"},
+{"page_id":"11","canonical_path":"\/unsere-angebote\/","month":"2025-09","tm":"2025-09-30 19:05:59"},
+{"page_id":"686","canonical_path":"\/unsere-angebote\/sudlandische-villa-in-brissago\/","month":"2025-09","tm":"2025-09-30 19:06:09"},
+{"page_id":"11","canonical_path":"\/unsere-angebote\/","month":"2025-09","tm":"2025-09-30 19:06:23"},
+{"page_id":"665","canonical_path":"\/unsere-angebote\/","month":"2025-09","tm":"2025-09-30 19:06:30"},
+{"page_id":"31","canonical_path":"\/unsere-angebote\/","month":"2025-09","tm":"2025-09-30 19:06:45"},
+{"page_id":"665","canonical_path":"\/unsere-angebote\/","month":"2025-09","tm":"2025-09-30 19:06:53"},
+{"page_id":"11","canonical_path":"\/unsere-angebote\/","month":"2025-09","tm":"2025-09-30 19:06:53"},
+{"page_id":"11","canonical_path":"\/unsere-angebote\/","month":"2025-09","tm":"2025-09-30 19:06:54"},
+{"page_id":"10","canonical_path":"\/unsere-angebote\/","month":"2025-09","tm":"2025-09-30 19:06:54"},
+{"page_id":"10","canonical_path":"\/unsere-angebote\/","month":"2025-09","tm":"2025-09-30 19:06:54"},
+{"page_id":"9","canonical_path":"\/unsere-angebote\/","month":"2025-09","tm":"2025-09-30 19:06:55"},
+{"page_id":"78","canonical_path":"\/","month":"2025-09","tm":"2025-09-30 19:30:57"},
+{"page_id":"1075","canonical_path":"\/about\/news\/artikel-2024-pro-orselina\/","month":"2025-09","tm":"2025-09-30 19:38:20"},
+{"page_id":"464","canonical_path":"\/","month":"2025-09","tm":"2025-09-30 19:47:52"},
+{"page_id":"825","canonical_path":"\/unsere-angebote\/haus-am-sudhang-von-agarone\/","month":"2025-09","tm":"2025-09-30 19:48:06"},
+{"page_id":"857","canonical_path":"\/unsere-angebote\/3-1-2-zimmer-terrassenwohnung-in-locarno-monti\/","month":"2025-09","tm":"2025-09-30 19:50:38"},
+{"page_id":"78","canonical_path":"\/","month":"2025-09","tm":"2025-09-30 20:02:28"},
+{"page_id":"78","canonical_path":"\/","month":"2025-09","tm":"2025-09-30 20:02:43"},
+{"page_id":"78","canonical_path":"\/","month":"2025-09","tm":"2025-09-30 20:02:54"},
+{"page_id":"78","canonical_path":"\/","month":"2025-09","tm":"2025-09-30 20:11:11"},
+{"page_id":"78","canonical_path":"\/","month":"2025-09","tm":"2025-09-30 20:27:31"},
+{"page_id":"1200","canonical_path":"\/italiano\/le-nostre-offerte\/casa-gemella-di-4-1-2-locali-in-posizione-meravigliosa\/","month":"2025-09","tm":"2025-09-30 20:32:13"},
+{"page_id":"61","canonical_path":"\/unsere-angebote\/reihenhaus-in-brione-s-minusio\/","month":"2025-09","tm":"2025-09-30 20:42:09"},
+{"page_id":"30","canonical_path":"\/unsere-angebote\/","month":"2025-09","tm":"2025-09-30 20:51:05"},
+{"page_id":"1064","canonical_path":"\/referenzobjekte\/traumhafte-terrassenwohnung-in-minusio\/","month":"2025-09","tm":"2025-09-30 20:51:05"},
+{"page_id":"30","canonical_path":"\/unsere-angebote\/","month":"2025-09","tm":"2025-09-30 20:54:38"},
+{"page_id":"1065","canonical_path":"\/referenzobjekte\/sudlandische-villenresidenz-in-brissago\/","month":"2025-09","tm":"2025-09-30 21:00:37"},
+{"page_id":"29","canonical_path":"\/","month":"2025-09","tm":"2025-09-30 21:01:09"},
+{"page_id":"1079","canonical_path":"\/unsere-angebote\/grosszugige-villa-an-exponierter-lage\/","month":"2025-09","tm":"2025-09-30 21:10:14"},
+{"page_id":"31","canonical_path":"\/unsere-angebote\/","month":"2025-09","tm":"2025-09-30 21:11:43"},
+{"page_id":"664","canonical_path":"\/unsere-angebote\/","month":"2025-09","tm":"2025-09-30 21:11:50"},
+{"page_id":"9","canonical_path":"\/unsere-angebote\/","month":"2025-09","tm":"2025-09-30 21:11:50"},
+{"page_id":"656","canonical_path":"\/unsere-angebote\/","month":"2025-09","tm":"2025-09-30 21:12:19"},
+{"page_id":"10","canonical_path":"\/unsere-angebote\/","month":"2025-09","tm":"2025-09-30 21:12:19"},
+{"page_id":"702","canonical_path":"\/unsere-angebote\/","month":"2025-09","tm":"2025-09-30 21:12:38"},
+{"page_id":"11","canonical_path":"\/unsere-angebote\/","month":"2025-09","tm":"2025-09-30 21:12:38"},
+{"page_id":"685","canonical_path":"\/unsere-angebote\/","month":"2025-09","tm":"2025-09-30 21:13:02"},
+{"page_id":"665","canonical_path":"\/unsere-angebote\/","month":"2025-09","tm":"2025-09-30 21:13:03"},
+{"page_id":"666","canonical_path":"\/unsere-angebote\/","month":"2025-09","tm":"2025-09-30 21:13:21"},
+{"page_id":"1115","canonical_path":"\/italiano\/le-nostre-offerte\/reihenhaus-in-brione-s-minusio\/","month":"2025-09","tm":"2025-09-30 21:20:16"},
+{"page_id":"9","canonical_path":"\/unsere-angebote\/","month":"2025-09","tm":"2025-09-30 21:24:33"},
+{"page_id":"656","canonical_path":"\/unsere-angebote\/","month":"2025-09","tm":"2025-09-30 21:25:19"},
+{"page_id":"10","canonical_path":"\/unsere-angebote\/","month":"2025-09","tm":"2025-09-30 21:25:20"},
+{"page_id":"702","canonical_path":"\/unsere-angebote\/","month":"2025-09","tm":"2025-09-30 21:25:45"},
+{"page_id":"11","canonical_path":"\/unsere-angebote\/","month":"2025-09","tm":"2025-09-30 21:25:46"},
+{"page_id":"685","canonical_path":"\/unsere-angebote\/","month":"2025-09","tm":"2025-09-30 21:26:28"},
+{"page_id":"665","canonical_path":"\/unsere-angebote\/","month":"2025-09","tm":"2025-09-30 21:26:28"},
+{"page_id":"666","canonical_path":"\/unsere-angebote\/","month":"2025-09","tm":"2025-09-30 21:26:59"},
+{"page_id":"31","canonical_path":"\/unsere-angebote\/","month":"2025-09","tm":"2025-09-30 21:27:00"},
+{"page_id":"665","canonical_path":"\/unsere-angebote\/","month":"2025-09","tm":"2025-09-30 21:27:12"},
+{"page_id":"664","canonical_path":"\/unsere-angebote\/","month":"2025-09","tm":"2025-09-30 21:27:12"},
+{"page_id":"666","canonical_path":"\/unsere-angebote\/","month":"2025-09","tm":"2025-09-30 21:27:14"},
+{"page_id":"11","canonical_path":"\/unsere-angebote\/","month":"2025-09","tm":"2025-09-30 21:27:15"},
+{"page_id":"685","canonical_path":"\/unsere-angebote\/","month":"2025-09","tm":"2025-09-30 21:27:17"},
+{"page_id":"10","canonical_path":"\/unsere-angebote\/","month":"2025-09","tm":"2025-09-30 21:27:17"},
+{"page_id":"1109","canonical_path":"\/referenzobjekte\/rustico-in-camignolo\/","month":"2025-09","tm":"2025-09-30 21:29:34"},
+{"page_id":"1201","canonical_path":"\/italiano\/le-nostre-offerte\/bella-villa-in-posizione-panoramica\/","month":"2025-09","tm":"2025-09-30 21:36:50"},
+{"page_id":"930","canonical_path":"\/italiano\/about\/vendita\/","month":"2025-09","tm":"2025-09-30 21:47:44"},
+{"page_id":"90","canonical_path":"\/italiano\/about\/kontakt\/","month":"2025-09","tm":"2025-09-30 21:49:11"},
+{"page_id":"1073","canonical_path":"\/about\/news\/nicht-nur-luxus\/","month":"2025-09","tm":"2025-09-30 21:50:35"},
+{"page_id":"1075","canonical_path":"\/about\/news\/artikel-2024-pro-orselina\/","month":"2025-09","tm":"2025-09-30 21:52:06"},
+{"page_id":"1040","canonical_path":"\/about\/kontakt\/","month":"2025-09","tm":"2025-09-30 21:53:21"},
+{"page_id":"78","canonical_path":"\/","month":"2025-09","tm":"2025-09-30 21:54:47"},
+{"page_id":"78","canonical_path":"\/","month":"2025-09","tm":"2025-09-30 21:57:33"},
+{"page_id":"78","canonical_path":"\/","month":"2025-09","tm":"2025-09-30 21:59:48"},
+{"page_id":"1152","canonical_path":"\/","month":"2025-09","tm":"2025-09-30 22:06:48"},
+{"page_id":"78","canonical_path":"\/","month":"2025-09","tm":"2025-09-30 22:09:22"},
+{"page_id":"78","canonical_path":"\/","month":"2025-09","tm":"2025-09-30 22:40:49"},
+{"page_id":"78","canonical_path":"\/","month":"2025-09","tm":"2025-09-30 22:41:05"},
+{"page_id":"78","canonical_path":"\/","month":"2025-09","tm":"2025-09-30 22:41:16"},
+{"page_id":"61","canonical_path":"\/unsere-angebote\/reihenhaus-in-brione-s-minusio\/","month":"2025-09","tm":"2025-09-30 22:47:04"},
+{"page_id":"61","canonical_path":"\/unsere-angebote\/reihenhaus-in-brione-s-minusio\/","month":"2025-09","tm":"2025-09-30 22:47:43"},
+{"page_id":"78","canonical_path":"\/","month":"2025-09","tm":"2025-09-30 22:48:16"},
+{"page_id":"78","canonical_path":"\/","month":"2025-09","tm":"2025-09-30 23:10:15"},
+{"page_id":"861","canonical_path":"\/italiano\/","month":"2025-10","tm":"2025-10-01 00:02:05"},
+{"page_id":"163","canonical_path":"\/italiano\/le-nostre-offerte\/","month":"2025-10","tm":"2025-10-01 00:02:25"},
+{"page_id":"1245","canonical_path":"\/italiano\/le-nostre-offerte\/","month":"2025-10","tm":"2025-10-01 00:03:03"},
+{"page_id":"1248","canonical_path":"\/italiano\/le-nostre-offerte\/","month":"2025-10","tm":"2025-10-01 00:03:26"},
+{"page_id":"1204","canonical_path":"\/italiano\/le-nostre-offerte\/villetta-in-collina-di-gordola\/","month":"2025-10","tm":"2025-10-01 00:03:39"},
+{"page_id":"1248","canonical_path":"\/italiano\/le-nostre-offerte\/","month":"2025-10","tm":"2025-10-01 00:04:05"},
+{"page_id":"1206","canonical_path":"\/italiano\/le-nostre-offerte\/villetta-bifamiliare-a-brione-s.minusio\/","month":"2025-10","tm":"2025-10-01 00:04:15"},
+{"page_id":"124","canonical_path":"\/","month":"2025-10","tm":"2025-10-01 00:04:18"},
+{"page_id":"3433","canonical_path":"\/italiano\/le-nostre-offerte\/villetta-bifamiliare-a-brione-s.minusio\/","month":"2025-10","tm":"2025-10-01 00:04:53"},
+{"page_id":"861","canonical_path":"\/italiano\/","month":"2025-10","tm":"2025-10-01 00:07:02"},
+{"page_id":"1200","canonical_path":"\/italiano\/le-nostre-offerte\/casa-gemella-di-4-1-2-locali-in-posizione-meravigliosa\/","month":"2025-10","tm":"2025-10-01 00:07:17"},
+{"page_id":"78","canonical_path":"\/","month":"2025-10","tm":"2025-10-01 00:16:21"},
+{"page_id":"78","canonical_path":"\/","month":"2025-10","tm":"2025-10-01 00:46:08"},
+{"page_id":"10","canonical_path":"\/unsere-angebote\/","month":"2025-10","tm":"2025-10-01 00:51:34"},
+{"page_id":"1361","canonical_path":"\/","month":"2025-10","tm":"2025-10-01 00:53:43"},
+{"page_id":"78","canonical_path":"\/","month":"2025-10","tm":"2025-10-01 01:55:08"},
+{"page_id":"78","canonical_path":"\/","month":"2025-10","tm":"2025-10-01 01:55:45"},
+{"page_id":"78","canonical_path":"\/","month":"2025-10","tm":"2025-10-01 01:55:47"},
+{"page_id":"861","canonical_path":"\/italiano\/","month":"2025-10","tm":"2025-10-01 02:04:09"},
+{"page_id":"424","canonical_path":"\/objekt-des-monats\/","month":"2025-10","tm":"2025-10-01 02:06:52"},
+{"page_id":"78","canonical_path":"\/","month":"2025-10","tm":"2025-10-01 02:07:15"},
+{"page_id":"836","canonical_path":"\/unsere-angebote\/4-1-2-zimmer-doppelhaushalfte-an-traumlage\/","month":"2025-10","tm":"2025-10-01 02:07:18"},
+{"page_id":"427","canonical_path":"\/italiano\/novita-del-mese\/","month":"2025-10","tm":"2025-10-01 02:07:21"},
+{"page_id":"424","canonical_path":"\/objekt-des-monats\/","month":"2025-10","tm":"2025-10-01 02:07:24"}
+]
+}
 ]
