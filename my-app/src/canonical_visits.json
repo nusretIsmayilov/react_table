@@ -1,0 +1,80 @@
+[
+  {
+    "type": "header",
+    "version": "5.1.2",
+    "comment": "Export to JSON plugin for PHPMyAdmin"
+  },
+  { "type": "database", "name": "immolenhart_db" },
+  {
+    "type": "table",
+    "name": "p",
+    "database": "immolenhart_db",
+    "data": [
+      {
+        "page_id": "1073",
+        "canonical_path": "/about/news/nicht-nur-luxus/",
+        "tm": "2025-10-06 17:30:28"
+      },
+      {
+        "page_id": "825",
+        "canonical_path": "/unsere-angebote/haus-am-sudhang-von-agarone/",
+        "tm": "2025-10-06 17:34:15"
+      },
+      {
+        "page_id": "826",
+        "canonical_path": "/unsere-angebote/haus-am-sudhang-von-agarone/",
+        "tm": "2025-10-06 17:34:32"
+      },
+      {
+        "page_id": "424",
+        "canonical_path": "/objekt-des-monats/",
+        "tm": "2025-10-06 17:34:36"
+      },
+      {
+        "page_id": "424",
+        "canonical_path": "/objekt-des-monats/",
+        "tm": "2025-10-06 17:34:36"
+      },
+      {
+        "page_id": "1148",
+        "canonical_path": "/objekt-des-monats/",
+        "tm": "2025-10-06 17:34:47"
+      },
+      {
+        "page_id": "30",
+        "canonical_path": "/unsere-angebote/",
+        "tm": "2025-10-06 17:34:48"
+      },
+      {
+        "page_id": "653",
+        "canonical_path": "/unsere-angebote/",
+        "tm": "2025-10-06 17:35:10"
+      },
+      {
+        "page_id": "110",
+        "canonical_path": "/unsere-angebote/bezaubernde-villetta-in-ronco-s.ascona/",
+        "tm": "2025-10-06 17:36:07"
+      },
+      {
+        "page_id": "1959",
+        "canonical_path": "/unsere-angebote/bezaubernde-villetta-in-ronco-s.ascona/",
+        "tm": "2025-10-06 17:36:27"
+      },
+      {
+        "page_id": "30",
+        "canonical_path": "/unsere-angebote/",
+        "tm": "2025-10-06 17:37:41"
+      },
+      {
+        "page_id": "653",
+        "canonical_path": "/unsere-angebote/",
+        "tm": "2025-10-06 17:37:43"
+      },
+      {
+        "page_id": "424",
+        "canonical_path": "/objekt-des-monats/",
+        "tm": "2025-10-06 17:37:43"
+      }
+    ]
+  }
+]
