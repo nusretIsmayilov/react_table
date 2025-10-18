@@ -4,19 +4,17 @@ import { LocalizationProvider } from "@mui/x-date-pickers/LocalizationProvider";
 import { AdapterDayjs } from "@mui/x-date-pickers/AdapterDayjs";
 import { TextField, Box } from "@mui/material";
 
-const BasicDateRangePicker = ({value, onChange}) => {
+const BasicDateRangePicker = ({ value, onChange }) => {
   return (
     <LocalizationProvider dateAdapter={AdapterDayjs}>
-      <Box className="p-4 max-w-xs">
+      <Box sx={{ display: "flex", gap: 2 }}>
         <DateRangePicker
-          startText="Start"
-          endText="End"
           value={value}
           onChange={(newValue) => onChange(newValue)}
           renderInput={(startProps, endProps) => (
             <>
-              <TextField {...startProps} fullWidth margin="normal" />
-              <TextField {...endProps} fullWidth margin="normal" />
+              <TextField {...startProps} label="Start date" />
+              <TextField {...endProps} label="End date" />
             </>
           )}
         />

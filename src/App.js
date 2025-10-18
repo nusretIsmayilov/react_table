@@ -1,5 +1,4 @@
 import * as React from "react";
-import BasicDateRangePicker from "./BasicDateRangePicker";
 import DataTable from "./DataTable";
 
 function App() {
@@ -7,7 +6,6 @@ function App() {
 
   return (
     <div>
-      <BasicDateRangePicker value={value} onChange={setValue} />
       <DataTable />
     </div>
   );

@@ -2,16 +2,18 @@ import React, { useState, useMemo } from "react";
 import jsonData from "./canonical_visits.json";
 
 export default function CounterTable() {
-  const sampleData =
-    jsonData.find((item) => item.type === "table")?.data || [];
+  // Extract actual data from PHPMyAdmin export format
+  const sampleData = jsonData.find((item) => item.type === "table")?.data || [];
 
   const [search, setSearch] = useState("");
-  const [month, setMonth] = useState("");
+  const [startDate, setStartDate] = useState("");
+  const [endDate, setEndDate] = useState("");
   const [sort, setSort] = useState({ field: "tm", dir: "desc" });
 
   const filtered = useMemo(() => {
     let rows = sampleData;
 
+    // --- Search filter ---
     if (search.trim()) {
       const q = search.toLowerCase();
       rows = rows.filter(
@@ -21,19 +23,30 @@ export default function CounterTable() {
       );
     }
 
-    if (month) {
-      rows = rows.filter((r) => r.tm.startsWith(month));
-    }
+    // --- Date range filter ---
+    if (startDate || endDate) {
+      const start = startDate
+        ? new Date(startDate + "T00:00:00")
+        : new Date("1900-01-01T00:00:00");
+      const end = endDate
+        ? new Date(endDate + "T23:59:59")
+        : new Date("9999-12-31T23:59:59");
 
+      rows = rows.filter((r) => {
+        const d = new Date(r.tm.replace(" ", "T"));
+        return d >= start && d <= end;
+      });
+    }
+    // --- Sorting ---
     rows = [...rows].sort((a, b) => {
       const A = a[sort.field];
       const B = b[sort.field];
       if (A === B) return 0;
-      return sort.dir === "asc" ? (A > B ? 1 : -1) : (A < B ? 1 : -1);
+      return sort.dir === "asc" ? (A > B ? 1 : -1) : A < B ? 1 : -1;
     });
 
     return rows;
-  }, [search, month, sort, sampleData]);
+  }, [search, startDate, endDate, sort, sampleData]);
 
   const toggleSort = (field) => {
     setSort((prev) =>
@@ -47,7 +60,16 @@ export default function CounterTable() {
     <div style={{ padding: 20, fontFamily: "sans-serif" }}>
       <h2>Page Statistics</h2>
 
-      <div style={{ display: "flex", gap: 10, marginBottom: 12 }}>
+      {/* Filters */}
+      <div
+        style={{
+          display: "flex",
+          flexWrap: "wrap",
+          gap: 10,
+          marginBottom: 12,
+          alignItems: "center",
+        }}
+      >
         <input
           type="text"
           placeholder="Search (URL or ID)..."
@@ -55,14 +77,39 @@ export default function CounterTable() {
           onChange={(e) => setSearch(e.target.value)}
           style={{ padding: 6, border: "1px solid #ccc", borderRadius: 4 }}
         />
-        <input
-          type="month"
-          value={month}
-          onChange={(e) => setMonth(e.target.value)}
-          style={{ padding: 6, border: "1px solid #ccc", borderRadius: 4 }}
-        />
+
+        <label>
+          Start:
+          <input
+            type="date"
+            value={startDate}
+            onChange={(e) => setStartDate(e.target.value)}
+            style={{
+              marginLeft: 4,
+              padding: 6,
+              border: "1px solid #ccc",
+              borderRadius: 4,
+            }}
+          />
+        </label>
+
+        <label>
+          End:
+          <input
+            type="date"
+            value={endDate}
+            onChange={(e) => setEndDate(e.target.value)}
+            style={{
+              marginLeft: 4,
+              padding: 6,
+              border: "1px solid #ccc",
+              borderRadius: 4,
+            }}
+          />
+        </label>
       </div>
 
+      {/* Table */}
       <table
         style={{
           width: "100%",
@@ -105,7 +152,8 @@ export default function CounterTable() {
                 padding: "8px",
               }}
             >
-              Timestamp {sort.field === "tm" && (sort.dir === "asc" ? "▲" : "▼")}
+              Timestamp{" "}
+              {sort.field === "tm" && (sort.dir === "asc" ? "▲" : "▼")}
             </th>
           </tr>
         </thead>
