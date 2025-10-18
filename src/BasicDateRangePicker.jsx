@@ -1,8 +1,7 @@
-import React from "react";
 import { DateRangePicker } from "@mui/x-date-pickers-pro/DateRangePicker";
 import { LocalizationProvider } from "@mui/x-date-pickers/LocalizationProvider";
 import { AdapterDayjs } from "@mui/x-date-pickers/AdapterDayjs";
-import { TextField, Box } from "@mui/material";
+import { TextField, Box, Button } from "@mui/material";
 
 const BasicDateRangePicker = ({ value, onChange }) => {
   return (
@@ -18,6 +17,7 @@ const BasicDateRangePicker = ({ value, onChange }) => {
             </>
           )}
         />
+        <Button disabled={!value[0] && !value[1]} onClick={() => onChange([null, null])}>Clear</Button>
       </Box>
     </LocalizationProvider>
   );
